@@ -1,0 +1,19 @@
+# Local environments and secrets
+.venv/
+.env
+
+# Python caches
+__pycache__/
+*.py[oc]
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+
+# macOS
+.DS_Store
+
+# Airflow runtime files (logs are shown via screenshots)
+logs/
+plugins/
+airflow.db
+airflow.cfg
