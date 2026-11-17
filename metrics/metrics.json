@@ -1,0 +1,15 @@
+{
+  "accuracy": 0.577,
+  "precision": 0.385,
+  "recall": 0.772,
+  "f1": 0.514,
+  "positive_class": "late_delivery = 1 (late)",
+  "split": {
+    "strategy": "time-based",
+    "test_start_date": "2026-11-07",
+    "train_rows": 7890,
+    "test_rows": 2163,
+    "train_dates": "2026-10-01 to 2026-11-06",
+    "test_dates": "2026-11-07 to 2026-11-15"
+  }
+}
